@@ -20,4 +20,5 @@ public class ProjetDTO {
     private String lienDemo;
     private String imageUrl;
     private Boolean epingle;
+    private Integer ordreAffichage;
 }

@@ -78,7 +78,7 @@ public class ProjetService {
         return new ProjetDTO(
                 p.getId(), p.getTitre(), p.getDescription(),
                 p.getTechnologies(), p.getLienGithub(), p.getLienDemo(),
-                p.getImageUrl(), p.getEpingle()
+                p.getImageUrl(), p.getEpingle(), p.getOrdreAffichage()
         );
     }
 }
