@@ -34,7 +34,7 @@ public class Projet {
 
     private Integer ordreAffichage = 0;
 
-    private Boolean epingle = false; // mis en avant sur la home
+    private Boolean epingle = false;
 
     @CreationTimestamp
     private LocalDateTime dateCreation;
