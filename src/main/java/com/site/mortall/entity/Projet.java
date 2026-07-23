@@ -23,10 +23,9 @@ public class Projet {
     @Column(columnDefinition = "TEXT")
     private String description;
 
-    @ElementCollection
-    @CollectionTable(name = "projet_technologies", joinColumns = @JoinColumn(name = "projet_id"))
+
     @Column(name = "technologie")
-    @OrderColumn(name = "id")
+
     private List<String> technologies = new ArrayList<>();
 
     private String lienGithub;
